@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login-screen</title>
+</head>
+
+<body class="container bg-gray-300 ">
+    <div>
+        <div class="container min-h-screen flex h-screen justify-center ">
+            
+            <div class="my-auto bg-white w-80">
+                <button class="mx-1 py-1 px-1 bg-white my-1 text-gray-400 rounded-md"><img class="w-3"
+                        src="img/close.png"></button>
+                <div class="form-elements px-10 py-5 bg-white rounded my-auto">
+
+                    <form action="#" method="post">
+                        <input class="mx-auto w-full block py-1 my-1 px-1 rounded border border-gray-200 hover:border-gray-300 focus:outline-indigo-300" type="text"
+                            placeholder="Username or email" required>
+                        <input class="mx-auto w-full block py-1 my-1 px-1 rounded border border-gray-200 hover:border-gray-300 focus:outline-indigo-300"
+                            type="password" name="passwd" id="" placeholder="Password" required>
+                        <div class="mx-1  py-1">
+                            <input type="checkbox" name="Remember" id="remember-me">
+                            <label for="remember-me">Remeber me</label>
+                            <input class="float-right bg-blue-600 hover:bg-blue-700 active:bg-blue-600 px-2 py-1 rounded text-white" type="submit"
+                                value="LOGIN">
+                        </div>
+                        <div class="py-1 mx-1">
+                            <a href="" class="block text-sky-500 hover:text-sky-600 float-left">Register now</a>
+                            <a href="" class="float-right text-gray-400 hover:text-gray-500">Forgot password</a>
+                        </div>
+                    </form>
+                    <br>
+                    <div class="text-center text-gray-400 my-4 "> Or</div>
+                    <hr class="py-4">
+
+                    <button class="mx-auto px-1 rounded py-2 text-white block my-2 mx-1 bg-blue-800 w-full flex hover:bg-blue-900 active:bg-blue-800">
+                        <img class="w-8 px-1" src="img/facebook.png" alt=""> Login with FACEBOOK</button>
+                    <button class="mx-auto px-1 rounded py-2 text-white block my-2 mx-1 bg-sky-500 w-full flex hover:bg-sky-600 active:bg-sky-500">
+                        <img class="w-8 px-1" src="img/twitter.png" alt=""> Login with TWITTER</button>
+                    <button class="mx-auto px-1 rounded py-2 text-white block my-2 mx-1 bg-red-600 w-full flex hover:bg-red-700 active:bg-red-600">
+                        <img class="w-8 px-1" src="img/google.png" alt=""> Login with GOOGLE</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
